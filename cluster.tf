@@ -52,7 +52,7 @@ resource "digitalocean_kubernetes_cluster" "bluenest" {
     tags         = ["worker"]
     auto_scale   = true
     min_nodes    = 1
-    max_nodes    = 5
+    max_nodes    = 2
 
   }
   maintenance_policy {
